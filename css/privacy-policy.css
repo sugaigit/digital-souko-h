@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#privacy-policy_in .wrap .ttl2{
+	margin: 0 0 40px 0;
+}	
+#privacy-policy_in .wrap .ttl2 h2{
+	color: #fff;
+	background: #67C945;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}	
+#privacy-policy_in .wrap .content{
+	font-size: 14px;
+	line-height: 2.0;
+	margin: 0 0 150px 0;
+}
+#privacy-policy_in .wrap .content h3{
+	font-size: 16px;
+}
+#privacy-policy_in .wrap .content .txt_area{
+	margin: 0 0 40px 0;
+}
+#privacy-policy_in .wrap .content .txt_area p{
+	margin: 0;
+}
+#privacy-policy_in .wrap .content .txt_area dl{
+	display: flex;
+}
+#privacy-policy_in .wrap .content .txt_area dl dt{
+	
+}
+#privacy-policy_in .wrap .content .txt_area dl dt.min100{
+	min-width: 70px;
+}
+#privacy-policy_in .wrap .content .txt_area dl dt.min220{
+	min-width: 155px;
+}
+#privacy-policy_in .wrap .content .txt_area dl dd{
+	
+}
+	
+	
+	
+	
+@media screen and (max-width:1340px){
+	#privacy-policy_in{
+		padding: 0 10px;
+    	box-sizing: border-box;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:950px){
+	#privacy-policy_in .wrap .ttl2 {
+		margin: 0 0 30px 0;
+	}
+	#privacy-policy_in .wrap .ttl2 h2{
+		font-size: 24px;
+	}
+	#privacy-policy_in .wrap .content{
+		font-size: 14px;
+  		line-height: 1.6;
+	}
+	#privacy-policy_in .wrap .content .txt_area {
+		margin: 0 0 30px 0;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min100 {
+		min-width: 70px;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min220 {
+		min-width: 155px;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:760px){
+	#privacy-policy_in .wrap .ttl2 h2{
+		font-size: 20px;
+	}
+	#privacy-policy_in .wrap .content{
+		font-size: 14px;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min100 {
+		min-width: 70px;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min220 {
+		min-width: 155px;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:600px){
+        #privacy-policy_in .wrap .content h3 {
+                font-size: 16px;
+        }
+	#privacy-policy_in .wrap .ttl2 {
+		margin: 0 0 30px 0;
+	}
+	#privacy-policy_in .wrap .ttl2 h2 {
+		color: #fff;
+		background: #67C945;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 5px;
+		text-align: center;
+	}
+	#privacy-policy_in .wrap .content {
+		font-size: 14px;
+		line-height: 1.8;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min100{
+		min-width: 70px;
+	}
+	#privacy-policy_in .wrap .content .txt_area dl dt.min220{
+		min-width: 155px;
+	}
+}
+	

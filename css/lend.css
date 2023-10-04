@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* イベント用品を貸したい */
+	
+#lend #sysWrap{
+	max-width: 100%;
+}
+#lend #sysWrap .crumb{
+	max-width: 1320px;
+	margin: 30px auto;
+}
+
+#lend_in .wrap .ttl2{
+	margin: 0 auto 40px auto;
+	max-width: 1320px;
+}	
+#lend_in .wrap .ttl2 h2{
+	color: #fff;
+	background: #67C945;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}	
+#lend_in .wrap .ttl3{
+	display: flex;
+    justify-content: space-between;
+    margin: 0 auto 50px auto;
+	max-width: 1320px;
+}	
+#lend_in .wrap .ttl3 h3{
+	width: 49%;
+    background: #67C945;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+	border-radius: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}	
+#lend_in .wrap .ttl3 a{
+	width: 49%;
+}	
+#lend_in .wrap .ttl3 a:hover{
+	opacity: 0.7;
+}	
+#lend_in .wrap .ttl3 a h3{
+	background: #fff;
+    color: #67C945;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 3px #67C945;
+    box-sizing: border-box;
+	width: 100%;
+}	
+#lend_in .wrap .content{
+	font-size: 20px;
+	line-height: 1.6;
+}	
+#lend_in .wrap .content h4{
+	font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 40px auto;
+	max-width: 1320px;
+}
+#lend_in .wrap .content .main_txt{
+	font-size: 18px;
+    margin: 0 auto 50px auto;
+	max-width: 1320px;
+}
+#lend_in .wrap .content .img_area.img01{
+	text-align: center;
+    padding: 0;
+	max-width: 100%;
+	background: #FFFDF2;
+}
+#lend_in .wrap .content .img_area.img01 img{
+	max-width: 600px;
+    width: 100%;
+}
+#lend_in .wrap .content .img_area.img01 img.sp{
+	display: none;
+}
+#lend_in .wrap .content .img_area02 {
+	display: none;
+}
+#lend_in .wrap .content .img_area.img02{
+	text-align: center;
+    margin: 50px auto 70px auto;
+	max-width: 1320px;
+}
+#lend_in .wrap .content .img_area.img02 img{
+	max-width: 800px;
+    width: 100%;
+}
+#lend_in .wrap .content .img_area.img02 img.sp{
+	max-width: 800px;
+    width: 60%;
+}
+#lend_in .wrap .content h5{
+	font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 20px auto;
+	max-width: 1320px;
+}
+#lend_in .wrap .content .f_area{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 120px auto;
+	max-width: 1100px;
+}
+#lend_in .wrap .content .f_area p{
+	background: #6B6B6B;
+    color: #fff;
+    text-align: center;
+    width: 32%;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+#lend_in .wrap .content .con_area{
+	text-align: center;
+    margin: 0 auto 150px auto;
+	max-width: 1320px;
+}
+#lend_in .wrap .content .con_area p{
+	font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+#lend_in .wrap .content .con_area a{
+	font-size: 30px;
+    color: #fff;
+    background: #00AAF1;
+    font-weight: bold;
+    padding: 13px 30px;
+	border-radius: 50px;
+}
+#lend_in .wrap .content .con_area a:hover{
+	opacity:0.7;
+}
+#lend_in .wrap .content .con_area a img{
+	margin: 0 0px 10px 30px;
+}
+#lend_in .wrap .content .img_area.img02 img.sp{
+	display: none;
+}
+	
+	
+	
+	
+@media screen and (max-width:1340px){
+	#lend_in{
+		padding: 0 20px;
+    	box-sizing: border-box;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:950px){
+	#lend #sysWrap .crumb {
+		margin: 30px auto;
+	}
+	#lend_in .wrap .ttl2{
+		margin: 0 auto 30px auto;
+	}
+	#lend_in .wrap .ttl2 h2 {
+		font-size: 24px;
+	}
+	#lend_in .wrap .ttl3{
+		margin: 0 auto 30px auto;
+	}
+	#lend_in .wrap .ttl3 h3{
+		font-size: 24px;
+		border: solid 3px #67C945;
+	}
+	#lend_in .wrap .ttl3 a h3{
+		font-size: 24px;
+	}
+	#lend_in .wrap .content h4{
+		margin: 0 auto 30px auto;
+		font-size: 24px;
+	}
+	#lend_in .wrap .content .main_txt{
+		font-size: 18px;
+	}
+	#lend_in .wrap .content h5{
+		font-size: 20px;
+	}
+	#lend_in .wrap .content .f_area p{
+		font-size: 18px;
+	}
+	#lend_in .wrap .content .f_area{
+		margin: 0 auto 60px auto;
+	}
+	#lend_in .wrap .content .con_area p{
+		font-size: 20px;
+	}
+	#lend_in .wrap .content .con_area a{
+		font-size: 24px;
+	}
+	#lend_in .wrap .content .con_area a img{
+		margin: 0 0px 6px 30px;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:760px){
+	#lend_in .wrap .ttl2 h2 {
+		font-size: 20px;
+	}
+	#lend_in .wrap .ttl3 h3{
+		font-size: 20px;
+	}
+	#lend_in .wrap .ttl3 a h3{
+		font-size: 20px;
+	}
+	#lend_in .wrap .content h4{
+		font-size: 20px;
+	}
+	#lend_in .wrap .content .main_txt{
+		font-size: 16px;
+	}
+	#lend_in .wrap .content h5{
+		font-size: 18px;
+	}
+	#lend_in .wrap .content .f_area p{
+		font-size: 16px;
+	}
+	#lend_in .wrap .content .con_area p{
+		font-size: 18px;
+	}
+	#lend_in .wrap .content .con_area a{
+		font-size: 20px;
+	}
+	#lend_in .wrap .content .con_area a img{
+		margin: 0 0px 4px 30px;
+	}
+}
+	
+	
+	
+	
+@media screen and (max-width:600px){
+	#lend_in{
+		padding: 0 10px;
+	}
+	#lend #sysWrap .crumb {
+		margin: 20px auto;
+	}
+	#lend_in .wrap .ttl2 {
+		margin: 0 0 30px 0;
+	}
+	#lend_in .wrap .ttl2 h2 {
+		color: #fff;
+		background: #67C945;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 5px;
+		text-align: center;
+	}
+	#lend_in .wrap .content {
+		font-size: 14px;
+		line-height: 1.8;
+	}
+	#lend_in .wrap .content h4 {
+		font-size: 18px;
+	}
+	#lend_in .wrap .content .main_txt {
+		font-size: 14px;
+	}
+	#lend_in .wrap .content .img_area.img01{
+		padding: 10px 0 10px 0;
+	}
+	#lend_in .wrap .content .img_area.img01 img.pc{
+		display: none;
+	}
+	#lend_in .wrap .content .img_area.img01 img.sp{
+		display: block;
+	}
+	#lend_in .wrap .content .img_area02 {
+		display: block;
+	}
+	#lend_in .wrap .content .img_area02 .merit01 p span {
+		border-bottom: solid 2px #FB8410;
+	}
+	#lend_in .wrap .content .img_area02 .merit02 p span {
+		border-bottom: solid 2px #00AAF1;
+	}
+	#lend_in .wrap .content .img_area.img02 img.pc{
+		display: none;
+	}
+	#lend_in .wrap .content .img_area.img02 img.sp{
+		display: inline-block;
+	}
+	#lend_in .wrap .content .f_area p{
+		width: 49%;
+	}
+	#lend_in .wrap .content .con_area a{
+		font-size: 16px;
+	}
+	#lend_in .wrap .content .con_area a img{
+		display: none;
+	}
+}
+	
+

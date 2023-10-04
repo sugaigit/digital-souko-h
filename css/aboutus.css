@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 会社概要及び特定商取引法に基づく表示 */
+
+table{
+  border-collapse:separate;
+  border-spacing: 5px;
+  width: 100%;
+}
+.ttl2{
+	margin: 0 0 40px 0;
+}	
+ .ttl2 h2{
+	color: #fff;
+	background: #67C945;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}	
+table th,table td{
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th{
+	background-color: #F6F6F6;
+    color: black;
+    width: 264px;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 20px;
+    border: solid 1px #C2C2C2;
+    border-right: none;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+table td{
+	background-color: white;
+    border: solid 1px #C2C2C2;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px 20px;
+    padding-left: 18px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+#sysWrap {
+    max-width: 1320px;
+    margin: 199px auto 0;
+    padding: 0;
+    overflow: hidden;
+}
+.company{
+	width: 1164px;
+    margin: 0 auto;
+	margin-bottom:200px;
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:1340px){
+	#aboutus #sysAll #sysWrap #sysMain{
+		padding: 0 20px;
+	}
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:1200px){
+	.company{
+		width:100%;
+	}
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:1100px){
+	
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:950px){
+	#aboutus #sysAll #sysWrap #sysMain {
+		padding: 0 10px;
+	}
+	.ttl2{
+		margin: 0 0 30px 0;
+	}	
+	 .ttl2 h2{
+		font-size: 24px;
+	}	
+	table th{
+		width: 250px;
+		font-size: 18px;
+    	padding: 15px 20px;
+	}
+	table td{
+		font-size: 18px;
+    	padding: 15px 20px;
+	}
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:760px){
+	 .ttl2 h2{
+		font-size: 20px;
+	}	
+	table th{
+		width: 210px;
+		font-size: 16px;
+	}
+	table td{
+		font-size: 16px;
+	}
+}
+	
+	
+	
+	
+	
+@media screen and (max-width:600px){
+	.ttl2 h2 {
+    font-size: 18px;
+	}
+	.tb01 {
+    width: 100%;
+		border: none;
+  }
+  table.tb01 th,
+  table.tb01 td {
+    display: block;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #707070;
+  }
+	table.tb01 th{
+		color: #67C945;
+		font-size: 16px;
+		background-color: #fff;
+		padding: 5px 0px;
+	}
+	table.tb01 td{
+		border: none;
+		font-size: 14px;
+		padding: 5px 0px 20px 0px;
+	}
+}
+	
+		
